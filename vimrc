@@ -2,12 +2,12 @@ if has("syntax")
   syntax on
 endif
 
-# Line number, displacement in status bar
+" Line number, displacement in status bar
 set ruler 
 
 imap ii <Esc>
 
-# -------------- Tabs -------------------
+" -------------- Tabs -------------------
 " Expand all tabs to spaces
 set expandtab
 " Set tab width to 4
@@ -17,7 +17,7 @@ retab
 " Set number of spaces for indentation
 set shiftwidth=4
 
-# ----------- Other stuff --------------
+" ----------- Other stuff --------------
 " Show matching brackets
 set showmatch
 
