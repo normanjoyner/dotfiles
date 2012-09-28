@@ -1,6 +1,5 @@
-alias ls='ls -F COLOR'
-alias ll='ls -l -F COLOR'
-alias grep='grep COLOR'
+alias ls='ls -G'
+alias ll='ls -l -G'
 
 alias confucius='ssh norman@normanjoyner.com -p4444'
 alias marx='ssh norman@normanjoyner.com -p3333'
