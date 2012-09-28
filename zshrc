@@ -18,6 +18,7 @@ setopt completeinword
 unsetopt beep
 
 zstyle ':completion:*:killall:*' command 'ps -u $USER -o cmd'
+autoload -U compinit; compinit
 bindkey -v
 bindkey 'ii' vi-cmd-mode
 bindkey "^?" backward-delete-char
