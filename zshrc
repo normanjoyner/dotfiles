@@ -1,10 +1,6 @@
 alias ls='ls -G'
 alias ll='ls -l -G'
 
-alias confucius='ssh norman@normanjoyner.com -p4444'
-alias marx='ssh norman@normanjoyner.com -p3333'
-alias archimedes='norman@normanjoyner.com'
-
 setopt inc_append_history
 setopt append_history
 setopt hist_ignore_dups
