@@ -30,3 +30,7 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
+nmap <C-p> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <C-p> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <C-c> :.w !pbcopy<CR><CR>
+vmap <C-c> :w !pbcopy<CR><CR>
